@@ -48,6 +48,8 @@ public class DrugDatabase {
          new EDrugClassification[]{EDrugClassification.ANALGESIC, EDrugClassification.PLATELET_AGGREGATION_INHIBITORS}));
       drugsInDatabase.add(new DispensableDrug(150, "acetaminophen",
               new EDrugClassification[]{EDrugClassification.ANALGESIC}));
+      drugsInDatabase.add(new DispensableDrug(170, "caffeine",
+              new EDrugClassification[]{EDrugClassification.ANALGESIC}));
       drugsInDatabase.add(new DispensableDrug(200, "bactrim",
          new EDrugClassification[]{EDrugClassification.ANTIBACTERIAL}));
       drugsInDatabase.add(new DispensableDrug(300, "diazepam",
