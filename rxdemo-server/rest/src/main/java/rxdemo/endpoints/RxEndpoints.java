@@ -11,8 +11,8 @@ import spark.Response;
 import static spark.Spark.*;
 
 // change to be deployed
-// triggering a new build
-// triggering a new build for deployment
+// TRIGGERING A BUILD
+
 public class RxEndpoints {
    public static void initalizeEndpoints() {
 
